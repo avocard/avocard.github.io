@@ -1,13 +1,10 @@
-const myHeading = document.querySelector('h1');
-myHeading.textContent = 'Hello world!';
-
-  const myImage = document.querySelector('img');
-
-  myImage.onclick = () => {
-    const mySrc = myImage.getAttribute('src');
-    if (mySrc === 'images/firefox-icon.png') {
-      myImage.setAttribute('src','images/a.png');
-    } else {
-      myImage.setAttribute('src','images/aiueo.png');
-    }
+const TwitterImage = document.querySelector('#Twitter');
+ TwitterImage.onclick = () => {
+  console.log("aaaaaaaaaa")
+  window.location.href = "https://twitter.com/avocard_11";
+  }  
+  const GithubImage = document.querySelector('#Github');
+ GithubImage.onclick = () => {
+  console.log("aaaaaaaaaa")
+  window.location.href = "https://github.com/avocard";
   }  
