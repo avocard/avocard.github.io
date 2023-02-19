@@ -33,20 +33,22 @@ header {
 /*自己紹介文の部分*/
 #iconAvocard{
 
-  position: absolute;
-  top: 200px;
+  position: relative;
+  top: 50px;
   left: 70px;
 }
 #profileText{
   color:black;
   size: 20px;
-  position: absolute;
-  top: 200px;
-  left: 330px;
+  position:relative;
+  top: 40px;
+  left: 300px;
 }
 
 .websites{
-text-align:left
+position:relative;
+top:0px;
+left:0px;
 }
 /*homeの背景のアニメーション設定*/
   #htmlHome{
