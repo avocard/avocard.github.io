@@ -17,14 +17,14 @@ const GithubImage = document.querySelector('#Github');
 
   //ゲーム名検索する関数
   function gameNameChecker(){
-    let element = document.getElementById('gameName');
+    let element = document.finder.gameName.value;
 console.log(gameMap.has(element));
-console.log(document.getElementById('gameName'));
+console.log(document.finder.getElementById('gameName'));
       }
 
   //閲覧にパスワードを追加する関数
    function gate() {
-    var UserInput = document.finder.getElementById('password');
+    var UserInput = document.finder.password.value;
     if (UserInput == "aiueo"){
         gameNameChecker();
     }
