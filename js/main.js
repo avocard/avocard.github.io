@@ -19,11 +19,12 @@ const GithubImage = document.querySelector('#Github');
   function gameNameChecker(){
     let element = document.getElementById('gameName');
 console.log(gameMap.has(element));
+console.log(document.getElementById('gameName'));
       }
 
   //閲覧にパスワードを追加する関数
    function gate() {
-    var UserInput = document.getElementById('password');
+    var UserInput = document.finder.getElementById('password');
     if (UserInput == "aiueo"){
         gameNameChecker();
     }
